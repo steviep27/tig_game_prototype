@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#gameContainer {
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  background-color: #ffffff;
+  border: 3px solid #555;
+  overflow: hidden;
+}
+
+#metal {
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  bottom: 70px;
+  left: -10px;
+}
+
+#torch {
+  position: absolute;
+  width: 200px;
+  bottom: 180px;
+  transition: left 0.03s;
+}
